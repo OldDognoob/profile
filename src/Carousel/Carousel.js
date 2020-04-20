@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import CarouselCss from "./carousel.css";
 import storm from "./sides/desert-storm-1024-768-3070.jpg";

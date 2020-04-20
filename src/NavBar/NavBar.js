@@ -6,6 +6,7 @@ import {
   FaGithubSquare,
   FaHome
 } from "react-icons/fa";
+// eslint-disable-next-line no-unused-vars
 import NavbarCss from "./Navbar.css";
 import {
   Collapse,
