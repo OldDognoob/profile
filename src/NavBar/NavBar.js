@@ -2,7 +2,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import {
   FaFacebookSquare,
-  FaInstagramSquare,
   FaGithubSquare,
   FaHome
 } from "react-icons/fa";
@@ -40,7 +39,7 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar color="info" light expand="md">
-          <NavbarBrand href="/">Dimos Christidis</NavbarBrand>
+          <NavbarBrand href="/">"Never fly in the same cockpit with someone braver than you"</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -52,11 +51,6 @@ export default class Example extends React.Component {
               <NavItem>
                 <NavLink href="https://www.facebook.com/dimos.christidis">
                   <FaFacebookSquare />
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://www.instagram.com/dimoschristidis/">
-                  <FaInstagramSquare />
                 </NavLink>
               </NavItem>
               <NavItem>

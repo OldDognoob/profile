@@ -1,14 +1,14 @@
-/* .App {
+.App {
   font-family: sans-serif;
   text-align: center;
-} */
+}
 
 .nav {
-  /* margin-top: 40px; */
+
   display: flex;
   justify-content: space-around;
   width: 1000px;
-  /* border: solid; */
+
 }
 .nav a {
   color: black;
@@ -17,150 +17,4 @@ i {
   color: azure;
 }
 
-.nav a:hover {
-  color: rgb(255, 217, 0);
-}
-.information a:hover {
-  color: rgb(255, 217, 0);
-}
-.imgPreview {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW-vlzxatqDVDAQu4jpEfVlxcT_HXgembwISZjeZMdt2mm2fJv");
-  background-repeat: no-repeat;
-  background-size: cover;
 
-  text-align: center;
-  margin: 5px 15px;
-  height: 200px;
-  width: 200px;
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
-  border-top: 5px solid gray;
-  border-bottom: 5px solid gray;
-}
-
-.information {
-  display: flex;
-  flex-direction: column;
-  height: 150px;
-  width: 200px;
-  justify-content: space-between;
-  /* border: solid; */
-  margin-left: 50px;
-}
-
-h3 {
-  margin-left: 50px;
-}
-
-a {
-  text-decoration: none;
-}
-.information a {
-  color: rgba(56, 55, 55, 0.911);
-}
-
-.information a :hover {
-  color: rgba(212, 212, 26, 0.911);
-}
-
-.info-personnel {
-  /* border-right: 1px solid; */
-  /* width: 300px; */
-}
-.membre {
-  /* border: solid; */
-  display: flex;
-}
-.rando {
-  height: 800px;
-  border: 1px solid grey;
-  margin-left: 40px;
-}
-
-form.example input[type="text"] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 40%;
-  background: #f1f1f1;
-}
-
-form.example button {
-  float: left;
-  width: 8%;
-  padding: 10px;
-  background: #f3d421;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
-}
-
-form {
-  display: flex;
-  margin-top: 50px;
-  margin-left: 30px;
-  margin-bottom: 40px;
-}
-
-form.example button:hover {
-  background: #dab40b;
-}
-
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.liste-rando {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  width: 800px;
-  padding-left: 30px;
-}
-.liste-rando a {
-  color: black;
-}
-
-.allRando {
-  border: 1px solid;
-  margin-left: 30px;
-  margin-right: 30px;
-  padding-bottom: 20px;
-  width: 860px;
-}
-.btnmodifier {
-  margin-right: 20px;
-  width: 100px;
-  height: 30px;
-}
-.btnsupprimer {
-  width: 100px;
-  height: 30px;
-}
-
-.formulaire {
-  display: flex;
-  flex-direction: column;
-  margin-left: 400px;
-}
-.formgroupe {
-  display: flex;
-  /* border: solid; */
-  width: 500px;
-}
-label {
-  /* border:solid; */
-  width: 200px;
-}
-.confirm-cancel {
-  display: flex;
-  justify-content: flex-end;
-}
-.btnconfirmer {
-  margin-right: 20px;
-}
