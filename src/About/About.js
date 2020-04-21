@@ -18,7 +18,7 @@ export default class Example extends React.Component {
         </Button>
         <Fade in={this.state.fadeIn} onPage tag="h5" className="mt-3">
           <p>
-            Hello!! My name is DocMustang a legendary pilot born to born to seek 
+            Hello!! My name is DocMustang a legendary pilot born to seek 
             new adventures and go where no man have never gone before. 
           </p>
           <p>
